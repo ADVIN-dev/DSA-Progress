@@ -7,7 +7,7 @@ class Solution(object):
         """
         nums.sort()
         n = len(nums)
-        res_sum = nums[0] + nums[1] + nums[2]
+        res_sum = 2**31 -1
 
         for i in range(n - 2):
             left = i + 1
